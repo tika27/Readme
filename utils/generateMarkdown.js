@@ -1,8 +1,10 @@
+function generatorMarkdown(data) {
+  
+  return `
 
+  # Project Title: ${data.Title}
 
-  # Project Title: README
-
-  ## Project Description: !
+  ## Project Description: ${data.Description}
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,19 +17,19 @@
   * [Badges](#badges)
   
   ## Installation
-  2
+  ${data.Installation}
 
   ## Usage
-  9
+  ${data.usage}
 
   ## Contributors
-  4
+  ${data.Contributors}
   
   ## Test
-  5
+  ${data.Test}
 
   ## Questions
-  If you have any questions, contact 7 on GitHub or 8.
+  If you have any questions, contact ${data.username} on GitHub or ${data.Email}.
   
   ## License
   MIT License
@@ -53,7 +55,13 @@
   ## Author
   
   ## Badges
-  ![Badge](https://img.shields.io/badge/7-README-green)
+  ![Badge](https://img.shields.io/badge/${data.username}-${data.Title}-green)
 
 
 
+`;
+}
+
+
+
+module.exports = generatorMarkdown;
