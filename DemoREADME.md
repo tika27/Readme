@@ -1,8 +1,11 @@
 
 
+  ## Badges
+  ![Badge](https://img.shields.io/badge/tika27-README.md-green)
+
   # Project Title: README.md
 
-  ## Project Description: We are using inquirer to prompt user for information through node.js and we can generated a README.
+  ## Project Description: 1
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,19 +18,19 @@
   * [Badges](#badges)
   
   ## Installation
-  npm install
+  2
 
   ## Usage
-  Generate README
+  4
 
   ## Contributors
-  Tika Adhikari
+  Tika
   
   ## Test
   node.js
 
   ## Questions
-  If you have any questions, contact tika27 on GitHub or tika27.github.oi.
+  If you have any questions, contact tika27 on GitHub or tika.github.oi.
   
   ## License
   MIT License
@@ -52,8 +55,6 @@
 
   ## Author
   
-  ## Badges
-  ![Badge](https://img.shields.io/badge/tika27-README.md-green)
-
+  
 
 
