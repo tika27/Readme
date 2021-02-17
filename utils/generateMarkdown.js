@@ -2,6 +2,9 @@ function generatorMarkdown(data) {
   
   return `
 
+  ## Badges
+  ![Badge](https://img.shields.io/badge/${data.username}-${data.Title}-green)
+
   # Project Title: ${data.Title}
 
   ## Project Description: ${data.Description}
@@ -54,9 +57,7 @@ function generatorMarkdown(data) {
 
   ## Author
   
-  ## Badges
-  ![Badge](https://img.shields.io/badge/${data.username}-${data.Title}-green)
-
+  
 
 
 `;

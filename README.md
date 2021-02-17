@@ -2,7 +2,7 @@
 
 ## Badges
 
-![Badge](https://img.shields.io/badge/7-README-green)
+![Badge](https://img.shields.io/badge/tika27-README-green)
 
 ## Project Description: My very first README that I generated using node.js.
 
